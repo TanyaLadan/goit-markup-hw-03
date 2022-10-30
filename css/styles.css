@@ -52,6 +52,11 @@ border-bottom: 1px solid #ECECEC;
     margin: 0 auto;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /* logo */
 .logo {
     color: #000000;
