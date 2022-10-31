@@ -135,6 +135,8 @@ text-align: center;
 
 .section.hero {
     padding-bottom: 0;
+    padding-top: 200px;
+        padding-bottom: 200px;
 }
 
 .hero-title {
@@ -145,7 +147,6 @@ text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
 
-    padding-top:200px;
     margin-bottom: 30px;
 }
 
@@ -162,8 +163,7 @@ text-align: center;
         border-radius: 4px;  
         border: none;
         
-        padding: 10px 32px;
-        margin-bottom: 200px;  
+        padding: 10px 32px; 
 
 }
 
@@ -256,8 +256,9 @@ width: calc((100% - 90px) / 4);
 background-color: #FFFFFF;
 }
 
-.photo-team {
-    margin-bottom: 30px;
+.team-description {
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .name {
@@ -278,11 +279,14 @@ background-color: #FFFFFF;
     color: var(--secondary-text-color);
 
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
+
 /* footer */
 .footer {
     background: var(--background-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -295,8 +299,7 @@ background-color: #FFFFFF;
         color: var(--accent);
         text-decoration: none;
 
-    padding-top: 60px;
-    margin-bottom: 20px;
+        margin-bottom: 20px;
 }
 .logoparts {
     color: #FFFFFF;
@@ -333,7 +336,6 @@ margin-bottom: 9px;
 .footer-contacts.tel {
     display: block;
     margin-left: 0px;
-    padding-bottom: 60px;
 }
 /* сторінка 2 */
 
@@ -398,7 +400,7 @@ background-color: var(--accent);
 }
 
 .card-description{
-    padding: 20px 24px 30px 24px;
+    padding: 20px 24px 20px 24px;
     border-left: #EEEEEE solid 1px;
     border-right: #EEEEEE solid 1px;
     border-bottom: #EEEEEE solid 1px;
